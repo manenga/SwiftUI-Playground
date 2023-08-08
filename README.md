@@ -6,7 +6,7 @@ Use SwiftUI to attempt to build replica UIs of exceptional apps.
 ## Apps
 Clearscore is the first app UI I've built. So far, I've only built 1 screen.
 
-![](https://raw.githubusercontent.com/manenga/SwiftUI-Playground/main/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20-%202023-08-08%20at%2017.54.41.png)
+<img src="https://github.com/manenga/SwiftUI-Playground/blob/main/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20-%202023-08-08%20at%2017.54.41.png" width="25%" /> 
 
 ## How can I support the developer?
 - Star our GitHub repo ⭐
