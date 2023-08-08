@@ -11,6 +11,12 @@
 		FF0650F62A50461200BDED58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0650F52A50461200BDED58 /* ContentView.swift */; };
 		FF0650F82A50461200BDED58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0650F72A50461200BDED58 /* Assets.xcassets */; };
 		FF0650FC2A50461200BDED58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0650FB2A50461200BDED58 /* Preview Assets.xcassets */; };
+		FF0651042A50731900BDED58 /* ClearScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0651032A50731900BDED58 /* ClearScore.swift */; };
+		FF0651062A50754400BDED58 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0651052A50754400BDED58 /* Launch Screen.storyboard */; };
+		FF0651092A50781D00BDED58 /* PrimaryFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0651082A50781D00BDED58 /* PrimaryFont.swift */; };
+		FF06510B2A50904900BDED58 /* CreditScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06510A2A50904900BDED58 /* CreditScore.swift */; };
+		FF213EDA2A509AEF00F8497E /* CreditReportCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF213ED92A509AEF00F8497E /* CreditReportCard.swift */; };
+		FF213EDC2A50A13500F8497E /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF213EDB2A50A13500F8497E /* DropShadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		FF0650F72A50461200BDED58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0650F92A50461200BDED58 /* Playground_Project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Playground_Project.entitlements; sourceTree = "<group>"; };
 		FF0650FB2A50461200BDED58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF0651032A50731900BDED58 /* ClearScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearScore.swift; sourceTree = "<group>"; };
+		FF0651052A50754400BDED58 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FF0651082A50781D00BDED58 /* PrimaryFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryFont.swift; sourceTree = "<group>"; };
+		FF06510A2A50904900BDED58 /* CreditScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScore.swift; sourceTree = "<group>"; };
+		FF213ED92A509AEF00F8497E /* CreditReportCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportCard.swift; sourceTree = "<group>"; };
+		FF213EDB2A50A13500F8497E /* DropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +66,12 @@
 			children = (
 				FF0650F32A50461200BDED58 /* Playground_ProjectApp.swift */,
 				FF0650F52A50461200BDED58 /* ContentView.swift */,
+				FF0651022A5072B300BDED58 /* ClearScore */,
+				FF0651072A5077BD00BDED58 /* Modifiers */,
 				FF0650F72A50461200BDED58 /* Assets.xcassets */,
 				FF0650F92A50461200BDED58 /* Playground_Project.entitlements */,
 				FF0650FA2A50461200BDED58 /* Preview Content */,
+				FF0651052A50754400BDED58 /* Launch Screen.storyboard */,
 			);
 			path = "Playground Project";
 			sourceTree = "<group>";
@@ -67,6 +82,25 @@
 				FF0650FB2A50461200BDED58 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF0651022A5072B300BDED58 /* ClearScore */ = {
+			isa = PBXGroup;
+			children = (
+				FF0651032A50731900BDED58 /* ClearScore.swift */,
+				FF06510A2A50904900BDED58 /* CreditScore.swift */,
+				FF213ED92A509AEF00F8497E /* CreditReportCard.swift */,
+			);
+			path = ClearScore;
+			sourceTree = "<group>";
+		};
+		FF0651072A5077BD00BDED58 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FF0651082A50781D00BDED58 /* PrimaryFont.swift */,
+				FF213EDB2A50A13500F8497E /* DropShadow.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0651062A50754400BDED58 /* Launch Screen.storyboard in Resources */,
 				FF0650FC2A50461200BDED58 /* Preview Assets.xcassets in Resources */,
 				FF0650F82A50461200BDED58 /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF213EDA2A509AEF00F8497E /* CreditReportCard.swift in Sources */,
+				FF213EDC2A50A13500F8497E /* DropShadow.swift in Sources */,
 				FF0650F62A50461200BDED58 /* ContentView.swift in Sources */,
 				FF0650F42A50461200BDED58 /* Playground_ProjectApp.swift in Sources */,
+				FF06510B2A50904900BDED58 /* CreditScore.swift in Sources */,
+				FF0651042A50731900BDED58 /* ClearScore.swift in Sources */,
+				FF0651092A50781D00BDED58 /* PrimaryFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +327,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manenga.Playground-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,7 +367,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manenga.Playground-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
